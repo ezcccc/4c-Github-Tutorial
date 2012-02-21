@@ -28,4 +28,42 @@ git rm DATEI
 # Dateien im lokalen Reposotory sichern
 git commit -a -m '[task] init git repo'
 
+# Änderungen einsehen
+git log -p
+
+# Version wiederherstellen
+git checkout master^ (master^^…)
+
+# Zweige anzeigen
+git branch
+
+# Neuen Zweig anlegen
+git branch meinzweig
+
+# Zweige zusammenführen
+git checkout meinzweig
+git commit -a -m '[task] meinzweig speichern'
+git push origin meinzweig
+git merge meinzweig
+
+# Zweig löschen
+git branch -d meinzweig
+
+# Externes Repository importieren
+git clone https://github.com/ezcccc/4c-Github-Tutorial.git
+
+# Externes Repository laden
+git remote add origin https://github.com/ezcccc/4c-Github-Tutorial.git
+
+# Externe Repositories anzeigen
+git remote -v
+
+# Lokales Repository aus externem Repo aktualisieren
+git fetsch origin
+
+# Externes Repo aktualisieren
+git push origin master
+
+
+
 
