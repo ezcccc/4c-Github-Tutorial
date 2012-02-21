@@ -1,3 +1,31 @@
-Git/Github Tutorial - 4c media Innovationstag
+#####################################################
+### Git/Github Tutorial - 4c media Innovationstag ###
+#####################################################
 
-1.   
+
+1. Git Init
+
+# Globale Konfiguration
+git config --global user.name "Elvir Zekic"
+git config --global user.email ez@cccc.de
+
+# Lokales Repository installieren
+mkdir ~github
+cd ~github
+git init
+
+
+
+
+2. Git verwenden
+
+# Dateien hinzufügen
+git add *
+
+# Dateien entfernen
+git rm DATEI
+
+# Dateien im lokalen Reposotory sichern
+git commit -a -m '[task] init git repo'
+
+
