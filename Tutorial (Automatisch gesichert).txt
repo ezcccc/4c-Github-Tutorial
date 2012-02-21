@@ -1,0 +1,22 @@
+#####################################################
+### Git/Github Tutorial - 4c media Innovationstag ###
+#####################################################
+
+
+1. Git Init
+
+# Globale Konfiguration
+git config --global user.name "Elvir Zekic"
+git config --global user.email ez@cccc.de
+
+# Lokales Repository installieren
+mkdir ~github
+cd ~github
+git init
+
+
+
+
+2. Git verwenden
+
+# 
