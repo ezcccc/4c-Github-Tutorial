@@ -59,7 +59,7 @@ git remote add origin https://github.com/ezcccc/4c-Github-Tutorial.git
 git remote -v
 
 # Lokales Repository aus externem Repo aktualisieren
-git fetsch origin
+git fetch origin
 
 # Externes Repo aktualisieren
 git push origin master
