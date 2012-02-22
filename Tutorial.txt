@@ -19,7 +19,7 @@ git init
 
 2. Git verwenden
 
-# Dateien hinzufügen
+# Dateien hinzufï¿½gen
 git add *
 
 # Dateien entfernen
@@ -28,7 +28,7 @@ git rm DATEI
 # Dateien im lokalen Reposotory sichern
 git commit -a -m '[task] init git repo'
 
-# Änderungen einsehen
+# ï¿½nderungen einsehen
 git log -p
 
 # Version wiederherstellen
@@ -40,13 +40,13 @@ git branch
 # Neuen Zweig anlegen
 git branch meinzweig
 
-# Zweige zusammenführen
+# Zweige zusammenfï¿½hren
 git checkout meinzweig
 git commit -a -m '[task] meinzweig speichern'
 git push origin meinzweig
 git merge meinzweig
 
-# Zweig löschen
+# Zweig lï¿½schen
 git branch -d meinzweig
 
 # Externes Repository importieren
@@ -92,4 +92,5 @@ FTP Staging -> Lokales Repo -> Github -> Auto-Fetch Liveserver
 
 
 
+Elvir's Pizza wird kalt....
 
