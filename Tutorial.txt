@@ -19,7 +19,7 @@ git init
 
 2. Git verwenden
 
-# Dateien hinzufŸgen
+# Dateien hinzufügen
 git add *
 
 # Dateien entfernen
@@ -28,11 +28,11 @@ git rm DATEI
 # Dateien im lokalen Reposotory sichern
 git commit -a -m '[task] init git repo'
 
-# €nderungen einsehen
+# Änderungen einsehen
 git log -p
 
 # Version wiederherstellen
-git checkout master^ (master^^É)
+git checkout master^ (master^^)
 
 # Zweige anzeigen
 git branch
@@ -40,13 +40,13 @@ git branch
 # Neuen Zweig anlegen
 git branch meinzweig
 
-# Zweige zusammenfŸhren
+# Zweige zusammenführen
 git checkout meinzweig
 git commit -a -m '[task] meinzweig speichern'
 git push origin meinzweig
 git merge meinzweig
 
-# Zweig lšschen
+# Zweig löschen
 git branch -d meinzweig
 
 # Externes Repository importieren
