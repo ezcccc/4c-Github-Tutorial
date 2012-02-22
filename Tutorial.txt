@@ -66,4 +66,30 @@ git push origin master
 
 
 
+3. Git Clients
+
+# Konsole
+
+# Github
+
+# Source Tree
+
+
+
+4. Git Workflow
+
+# Template/Extension Entwicklung
+Lokales Repo -> Github -> Lokales Repo
+
+# Template/Extension Integration Entwicklungsumgebung
+FTP Staging -> Lokales Repo -> Github
+
+# Template/Extension Integration Liveumgebung
+FTP Staging -> Lokales Repo -> Github -> Auto-Fetch Liveserver
+
+
+
+
+
+
 
