@@ -1,0 +1,95 @@
+#####################################################
+### Git/Github Tutorial - 4c media Innovationstag ###
+#####################################################
+
+
+1. Git Init
+
+# Globale Konfiguration
+git config --global user.name "Elvir Zekic"
+git config --global user.email ez@cccc.de
+
+# Lokales Repository installieren
+mkdir ~github
+cd ~github
+git init
+
+
+
+
+2. Git verwenden
+
+# Dateien hinzufŸgen
+git add *
+
+# Dateien entfernen
+git rm DATEI
+
+# Dateien im lokalen Reposotory sichern
+git commit -a -m '[task] init git repo'
+
+# €nderungen einsehen
+git log -p
+
+# Version wiederherstellen
+git checkout master^ (master^^É)
+
+# Zweige anzeigen
+git branch
+
+# Neuen Zweig anlegen
+git branch meinzweig
+
+# Zweige zusammenfŸhren
+git checkout meinzweig
+git commit -a -m '[task] meinzweig speichern'
+git push origin meinzweig
+git merge meinzweig
+
+# Zweig lšschen
+git branch -d meinzweig
+
+# Externes Repository importieren
+git clone https://github.com/ezcccc/4c-Github-Tutorial.git
+
+# Externes Repository laden
+git remote add origin https://github.com/ezcccc/4c-Github-Tutorial.git
+
+# Externe Repositories anzeigen
+git remote -v
+
+# Lokales Repository aus externem Repo aktualisieren
+git fetch origin
+
+# Externes Repo aktualisieren
+git push origin master
+
+
+
+3. Git Clients
+
+# Konsole
+
+# Github
+
+# Source Tree
+
+
+
+4. Git Workflow
+
+# Template/Extension Entwicklung
+Lokales Repo -> Github -> Lokales Repo
+
+# Template/Extension Integration Entwicklungsumgebung
+FTP Staging -> Lokales Repo -> Github
+
+# Template/Extension Integration Liveumgebung
+FTP Staging -> Lokales Repo -> Github -> Auto-Fetch Liveserver
+
+
+
+
+
+
+
